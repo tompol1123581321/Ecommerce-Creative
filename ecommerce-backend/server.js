@@ -8,8 +8,9 @@ const app = express()
 dotenv.config()
 connectDb()
 const __dirname = path.resolve()
+const PORT = process.env.SERVER_PORT || 8080
 
-app.listen(process.env.SERVER_PORT || 8080)
+app.listen(PORT)
 
 app.use("/api/products", productRoutes)
 
