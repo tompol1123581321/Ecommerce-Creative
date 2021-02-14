@@ -10,7 +10,8 @@
 		"client": "npm start --prefix ecommerce-frontend",
 		"dev": "concurrently \"nodemon ecommerce-backend/server\" \"npm start --prefix ecommerce-frontend\"",
 		"data:add": "node ecommerce-backend/seeder",
-		"data:del": "node ecommerce-backend/seeder -d"
+		"data:del": "node ecommerce-backend/seeder -d",
+		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix ecommerce-frontend && npm run build"
 	},
 	"author": "Tomas Polivka",
 	"license": "ISC",
@@ -22,6 +23,7 @@
 		"express-async-handler": "^1.1.4",
 		"mongoose": "^5.11.13",
 		"nodemon": "^2.0.7",
+		"path": "^0.12.7",
 		"prop-types": "^15.7.2"
 	}
 }
