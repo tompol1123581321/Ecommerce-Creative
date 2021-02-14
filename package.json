@@ -11,7 +11,7 @@
 		"dev": "concurrently \"nodemon ecommerce-backend/server\" \"npm start --prefix ecommerce-frontend\"",
 		"data:add": "node ecommerce-backend/seeder",
 		"data:del": "node ecommerce-backend/seeder -d",
-		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix ecommerce-frontend && npm run build"
+		"heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix ecommerce-frontend && npm run build --prefix ecommerce-frontend"
 	},
 	"author": "Tomas Polivka",
 	"license": "ISC",
