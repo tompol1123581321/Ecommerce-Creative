@@ -10,7 +10,7 @@ connectDb()
 const __dirname = path.resolve()
 const PORT = process.env.SERVER_PORT || 5000
 
-app.listen(PORT)
+app.listen(PORT, console.log(`running on ${PORT}`))
 
 app.use("/api/products", productRoutes)
 
