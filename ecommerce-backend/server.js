@@ -9,7 +9,7 @@ dotenv.config()
 connectDb()
 const __dirname = path.resolve()
 
-app.listen(process.env.SERVER_PORT)
+app.listen(process.env.SERVER_PORT || 8080)
 
 app.use("/api/products", productRoutes)
 
