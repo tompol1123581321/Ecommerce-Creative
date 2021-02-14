@@ -1,1 +1,1 @@
-web: node ecommerce-backend/server
+web: node ecommerce-backend/server.js
