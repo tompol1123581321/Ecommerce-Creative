@@ -1,0 +1,35 @@
+@import "~bootstrap/scss/bootstrap";
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: "Roboto Mono", monospace;
+}
+
+.pageContent {
+	min-height: 86.66vh;
+	overflow: hidden;
+	a {
+		text-decoration: none;
+		color: rgb(61, 60, 60);
+	}
+	a:hover {
+		text-decoration: none;
+	}
+	i {
+		width: 1rem;
+	}
+}
+
+.footer {
+	min-height: 7vh;
+	background-color: rgba(52, 58, 64, 255);
+	color: lightgray;
+	text-align: center;
+}
+
+.cartButtons {
+	display: flex;
+	justify-content: space-between;
+}
