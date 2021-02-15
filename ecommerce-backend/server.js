@@ -8,7 +8,7 @@ const app = express()
 dotenv.config()
 connectDb()
 const __dirname = path.resolve()
-const PORT = process.env.SERVER_PORT || 80
+const PORT = process.env.PORT || 8080
 
 app.listen(PORT, () => {
 	console.log(`running on ${PORT}`)
