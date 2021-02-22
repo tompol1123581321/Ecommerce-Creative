@@ -40,7 +40,7 @@ const Recapitulation = ({ product }) => {
 							<Row>
 								Amount:
 								<Form.Control
-									style={{ maxWidth: "3rem" }}
+									style={{ maxWidth: "5rem" }}
 									as="select"
 									value={product.qty}
 									onChange={(e) =>

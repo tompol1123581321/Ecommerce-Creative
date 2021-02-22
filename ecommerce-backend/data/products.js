@@ -1,6 +1,6 @@
 const products = [
 	{
-		name: "The (Wonderful) Wizard of Oz",
+		name: "The Wizard of Oz",
 		autor: "L. Frank Baum",
 		image: "/images/theWizardOfOz.jpeg",
 		description:

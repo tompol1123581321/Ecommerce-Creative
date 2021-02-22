@@ -42,7 +42,7 @@ const ProductScreen = ({ history, match }) => {
 	const addToCartHandler = () => {
 		history.push(`/cart/${match.params.id}?qty=${qty}`)
 	}
-	console.log(qty)
+
 	return (
 		<motion.div
 			className="pageContent"

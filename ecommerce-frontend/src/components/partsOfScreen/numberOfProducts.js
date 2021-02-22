@@ -30,6 +30,7 @@ const NumberOfProducts = ({ product }) => {
 					<Col>Quantity</Col>
 					<Col>
 						<Form.Control
+							style={{ width: "5rem" }}
 							as="select"
 							value={quantityOfProducts}
 							onChange={(e) =>
