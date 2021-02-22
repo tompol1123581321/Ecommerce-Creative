@@ -113,7 +113,7 @@ const ProductScreen = ({ history, match }) => {
 										<h4>Quantity: </h4>
 										<Form.Control
 											style={{
-												maxWidth: "3rem",
+												maxWidth: "5rem",
 												marginLeft: ".5rem",
 											}}
 											as="select"
